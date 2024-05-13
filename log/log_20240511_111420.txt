@@ -1,0 +1,27 @@
+[2024-05-11 11:14:21] INFO [run: run.all.py, 31] ==== 测试开始 ====
+[2024-05-11 11:14:21] DEBUG [query_db: db1.py, 28] select * from t_user where user_name='student'
+[2024-05-11 11:14:21] DEBUG [query_db: db1.py, 31] None
+[2024-05-11 11:14:21] DEBUG [change_db: db1.py, 41] insert into t_user(user_name,password)values ('student','123456')
+[2024-05-11 11:14:21] DEBUG [query_db: db1.py, 28] select * from t_user where user_name='student'
+[2024-05-11 11:14:21] DEBUG [query_db: db1.py, 31] (244, None, 'student', '123456', None, None, None, None, None, None, None, None, None, None, None, None, None, None)
+[2024-05-11 11:14:21] DEBUG [query_db: db1.py, 28] select * from t_user where user_name='student'
+[2024-05-11 11:14:21] DEBUG [query_db: db1.py, 31] (244, None, 'student', '123456', None, None, None, None, None, None, None, None, None, None, None, None, None, None)
+[2024-05-11 11:14:21] DEBUG [change_db: db1.py, 41] delete from t_user where user_name='student'
+[2024-05-11 11:14:22] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.1:8000
+[2024-05-11 11:14:23] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.1:8000
+[2024-05-11 11:14:24] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.1:8000
+[2024-05-11 11:14:25] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.1:8000
+[2024-05-11 11:14:26] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.1:8000
+[2024-05-11 11:14:27] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.1:8000
+[2024-05-11 11:14:28] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.1:8000
+[2024-05-11 11:14:29] DEBUG [query_db: db1.py, 28] select * from t_user where user_name='student'
+[2024-05-11 11:14:29] DEBUG [query_db: db1.py, 31] None
+[2024-05-11 11:14:29] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.1:8000
+[2024-05-11 11:14:30] DEBUG [query_db: db1.py, 28] select * from t_user where user_name='test'
+[2024-05-11 11:14:30] DEBUG [query_db: db1.py, 31] (14, '231996bb-9f0c-4439-9866-44a478e84439', 'test', 'YIiFUK5j58FBXaZMpWYc30aBh+gC2lgdLf5hSD8jA2XlElKcsioROvUyvoRJ9m3Gzc7NkKu5xnl0c3CcS877N+amGQD/AkOjxLm8pvqZ+DlHeIR0PcftSpkM8rGcBS715VCKNFH4B5YqtTkfhLr8oamWtr1UhUKh5gTwIL6JppI=', None, None, None, None, 1, None, 1, 1, None, datetime.datetime(2024, 4, 22, 16, 43, 47), None, datetime.datetime(2024, 4, 22, 16, 43, 47), b'\x00', None)
+[2024-05-11 11:14:30] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.1:8000
+[2024-05-11 11:14:31] DEBUG [query_db: db1.py, 28] select * from t_user where user_name='peter'
+[2024-05-11 11:14:31] DEBUG [query_db: db1.py, 31] None
+[2024-05-11 11:14:31] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.1:8000
+[2024-05-11 11:14:32] INFO [run: run.all.py, 42] 测试成功
+[2024-05-11 11:14:32] ERROR [send_email: send_email.py, 46] [Errno 11001] getaddrinfo failed
